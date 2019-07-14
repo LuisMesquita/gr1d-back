@@ -1,0 +1,33 @@
+{
+  "name": "gr1d-back",
+  "version": "1.0.0",
+  "description": "Server application for gr1dHackathon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisMesquita/gr1d-back.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "hackathon"
+  ],
+  "author": "luis barroso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisMesquita/gr1d-back/issues"
+  },
+  "homepage": "https://github.com/LuisMesquita/gr1d-back#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "mongoose": "^5.6.4",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  }
+}
